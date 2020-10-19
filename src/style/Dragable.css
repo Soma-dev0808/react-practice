@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(234, 239, 243);
+}
+
+.image-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upload-image-button {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.draggable-container {
+  width: 50%;
+  background-color: rgb(161, 199, 224);
+}
+
+.parent-img {
+  width: 100%;
+  height: 100%;
+}
+
+.rnd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+}
+
+.rnd-text {
+  background: transparent;
+}
+
+.draggable-img {
+  width: 100%;
+  height: 100%;
+}
+
+.input-container {
+  min-width: 100%;
+  height: 100%;
+}
+
+.remove-button-container {
+  margin-top: 20px;
+}
+
+.text-buttons {
+  margin-top: 20px;
+}

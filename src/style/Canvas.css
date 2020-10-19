@@ -1,0 +1,30 @@
+code {
+  color: #fff;
+  font-size: x-large;
+  background-color: #01abf1;
+  padding: 1px 5px 1px 5px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #01abf1;
+  font-size: small;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: #9901f1;
+}
+
+.splineCell {
+  padding: 15px;
+  width: 255px;
+  height: 650;
+  margin: 10px;
+}
+
+.positions {
+  width: 255px;
+}
